@@ -15,7 +15,7 @@ var enabled = true;
 var HELLO_WORLD_ANNOUNCEMENT = {
   "contents": [
     { "type": "heading",      "text": "Ninja CPU Driver Loaded" },
-    { "type": "paragraph",    "text": "The Ninja CPU  driver has been loaded. You should not see this message again." }
+    { "type": "paragraph",    "text": "The Ninja CPU driver has been loaded. You should not see this message again." }
   ]
 };
 
