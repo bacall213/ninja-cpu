@@ -6,9 +6,10 @@ var Device = require('./lib/device')
 // Give our driver a stream interface
 util.inherits(cpuDriver,stream);
 
-// Option for poll interval and enable/disable
-// poll_interval: 1000 = 1 second
-var poll_interval = '5000';
+// Poll interval default value in seconds (converted to milliseoncds in device.js)
+var default_poll_interval = 5;
+
+// Enable/disable
 var enabled = true;
 
 // Our greeting to the user.
@@ -49,6 +50,7 @@ function cpuDriver(opts,app) {
       if (!opts.hasSentAnnouncement) {
         self.emit('announcement',HELLO_WORLD_ANNOUNCEMENT);
         opts.hasSentAnnouncement = true;
+        opts.poll_interval = default_poll_interval;
         self.save();
       }
 

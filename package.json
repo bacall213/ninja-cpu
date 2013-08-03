@@ -1,6 +1,6 @@
 {
   "name": "ninja-cpu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ninja CPU Monitor",
   "main": "index.js",
   "scripts": {
