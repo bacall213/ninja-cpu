@@ -1,7 +1,7 @@
 Ninja CPU Monitor
 =================
 Author: Brian Call
-Version: 0.0.3
+Version: 0.0.4
 Status: Stable
 License: BSD
 
