@@ -1,6 +1,6 @@
 {
   "name": "ninja-cpu",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Ninja CPU Monitor",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,5 @@
   },
   "repository": "https://github.com/bacall213/ninja-cpu",
   "author": "bacall213",
-  "license": "BSD"
+  "license": "MIT"
 }
