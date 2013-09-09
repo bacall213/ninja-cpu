@@ -15,8 +15,8 @@ var enabled = true;
 // Our greeting to the user.
 var HELLO_WORLD_ANNOUNCEMENT = {
   "contents": [
-    { "type": "heading",      "text": "Ninja CPU Driver Loaded" },
-    { "type": "paragraph",    "text": "The Ninja CPU driver has been loaded. You should not see this message again." }
+    { "type": "heading",   "text": "Ninja CPU Monitor Loaded" },
+    { "type": "paragraph", "text": "The Ninja CPU Monitor has been loaded. You should not see this message again." }
   ]
 };
 
@@ -60,6 +60,7 @@ function cpuDriver(opts,app) {
   });
 };
 
+
 /**
  * Called when a user prompts a configuration.
  * If `rpc` is null, the user is asking for a menu of actions
@@ -70,8 +71,6 @@ function cpuDriver(opts,app) {
  * @param  {Object}   rpc.params Any input data the user provided
  * @param  {Function} cb      Used to match up requests.
  */
-
-
 cpuDriver.prototype.config = function(rpc,cb) {
 
   var self = this;

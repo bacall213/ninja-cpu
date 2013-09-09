@@ -1,7 +1,7 @@
 Ninja CPU Monitor
 =================
 Author: Brian Call
-Version: 0.0.5
+Version: 0.0.6
 Status: Stable
 License: MIT
 
@@ -23,7 +23,6 @@ sudo service ninjablock restart
 
 
 ## Notes
-- Install instructions have not been checked
 - CPU monitoring code based on Ninja Blocks CPU monitor tutorial
 - Other code examples borrowed from ninja-diskspace
 
