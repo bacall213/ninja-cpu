@@ -27,6 +27,18 @@ sudo service ninjablock restart
 - Other code examples borrowed from ninja-diskspace
 
 
+
+## Change History
+#### 0.0.6
+- Added change history to readme
+- Changed device type from 2000 (sandbox device) to 501 (CPU device)
+- Corrected CPU usage code to run top 3 times and pull the third value to prevent the "same value bug" that occurs with batch mode. Top uses flawed summary information for the first iteration, resulting in an invalid/inaccurate value.
+- Cleaned up the code a bit
+- Added require('os') in device.js
+- Use os.hostname() to generate a default title of "CPU@<hostname> (% use)." The new title should make it more universal across platforms and allow for multiple CPU use sensors to exist without needing to modify the titles to keep them uniquely identifiable.
+
+
+
 ## License
 Copyright (c) 2013 Brian Call
 
