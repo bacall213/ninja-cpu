@@ -22,7 +22,7 @@ sudo service ninjablock restart
 ```
 
 
-### Step 3 (optional) - Stylize your Ninjablock dashboard\*
+#### Step 3 (optional) - Stylize your Ninjablock dashboard\*
 1. Create a new widget
 2. Assign this driver from your list to the widget
 3. Import the GIST at: https://gist.github.com/bacall213/6341855
